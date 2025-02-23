@@ -1,0 +1,50 @@
+*{
+    margin: 20px;
+    padding:0;
+    background-color: rgb(171, 169, 169);
+}
+
+.heading{
+    margin-left:60px;
+    padding:20px;
+}
+
+.input-height{
+    display:flex;
+    align-items: center;
+}
+
+.input-height p{
+    font-size: large; 
+}
+
+#height{
+    background-color: white;
+    padding: 4px;
+}
+.input-weight{
+    display:flex;
+    align-items: center;
+}
+
+.input-weight p{
+    font-size: large; 
+}
+
+#weight{
+    background-color: white;
+    padding: 4px;
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    border-radius:3px;
+    margin-left:13%;
+    cursor:pointer;
+}
+
+#results{
+    font-size:30px;
+    color:rgb(255, 255, 255);
+}

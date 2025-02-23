@@ -1,0 +1,31 @@
+*{
+    margin : 0;
+    padding: 0;
+    background-color: #212121 ;
+    color:white;
+}
+
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner span{
+    font-size :24px;
+    font-weight:800;
+}
+
+#clock{
+    height:50px;
+    width:120px;
+    margin : 10px auto;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 3px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
